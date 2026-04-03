@@ -1,0 +1,67 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #0f0f0f;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #1a1a1a;
+}
+
+button {
+  background: linear-gradient(45deg, #ff4d6d, #7b2cbf);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #ff4d6d, #7b2cbf);
+}
+
+section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.problem ul {
+  list-style: none;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1f1f1f;
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #2a2a2a;
+}
+
+.cta {
+  background: linear-gradient(135deg, #7b2cbf, #ff4d6d);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1a1a1a;
+}
